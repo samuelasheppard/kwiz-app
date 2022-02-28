@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 function GameLength(props) {
   const options = [10, 20, 30, 40, 50];
@@ -23,15 +23,3 @@ function GameLength(props) {
 }
 
 export default GameLength;
-
-// <>
-//   <input
-//     type="number"
-//     required
-//     min="10"
-//     max="50"
-//     onChange={(e) => {
-//       props.setLength(e);
-//     }}
-//   />
-// </>
